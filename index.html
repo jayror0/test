@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Test</title>
+  </head>
+  <body>
+    <h1>Table</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>   
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+            <td>Row 1, Cell 3</td>    
+        </thead>
+    </table>
+
+    <h1>List</h1>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h1>Paragraph</h1>
+    <p>This is a paragraph of text that serves as an example.</p>
+
+    <h1>Image</h1>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+
+    <h1>Link</h1>
+    <a href="https://www.example.com" target="_blank" >Visit Example.com</a>
+
+
+    <h1>Button</h1>
+    <button type="button" onclick="alert('Button clicked!')">Click Me!</button>
+
+    <h1>Form</h1>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <br />
+        <input type="submit" value="Submit" />
+    </form>
+
+    <h1>Video</h1>
+    <video width="320" height="240" controls style="display: block; margin: 20px auto;">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h1>Audio</h1>
+    <audio controls style="display: block; margin: 20px auto;">
+        <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h1>Checkbox</h1>
+    <form style="text-align: center;">
+        <input type="checkbox" id="check1" name="check1" value="Option 1">
+        <label for="check1">Option 1</label><br>
+        <input type="checkbox" id="check2" name="check2" value="Option 2">
+        <label for="check2">Option 2</label><br>
+        <input type="checkbox" id="check3" name="check3" value="Option 3">
+        <label for="check3">Option 3</label><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h1>Radio Buttons</h1>
+    <form>
+        <input type="radio" id="radio1" name="radioGroup" value="Option 1">
+        <label for="radio1">Option 1</label><br>
+        <input type="radio" id="radio2" name="radioGroup" value="Option 2">
+        <label for="radio2">Option 2</label><br>
+        <input type="radio" id="radio3" name="radioGroup" value="Option 3">
+        <label for="radio3">Option 3</label><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h1>Textarea</h1>
+    <form>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Type your message here..."></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h1>Progress Bar</h1>
+    <progress value="50" max="100">50%</progress>
+
+    <h1>Details and Summary</h1>
+    <details>
+        <summary>More Information</summary>
+        <p>This section contains additional details that can be expanded or collapsed.</p>
+    </details>
+
+    <h1>Definition List</h1>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language, the standard markup language for documents designed to be displayed in a web browser.</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets, a style sheet language used for describing the presentation of a document written in HTML or XML.</dd>
+        <dt>JavaScript</dt>
+        <dd>A programming language that enables interactive web pages; it is an essential part of web applications.</dd>
+    </dl>
+
+    <h1>Blockquote</h1>
+    <blockquote>
+        <p>"The only limit to our realization of tomorrow is our doubts of today." - Franklin D. Roosevelt</p>
+    </blockquote>
+
+    <h1>Code Snippet</h1>
+    <pre><code>function greet(name) {
+    return `Hello, ${name}!`;
+}
+console.log(greet('World'));</code></pre>
+    
+    <h1>Horizontal Rule</h1>
+    <hr />
+    <h1>Small Text</h1>
+    <p>This is a paragraph with <small>small text</small> included.</p>
+    <h1>Strong and Emphasized Text</h1>
+    <p>This is a <strong>strongly emphasized</strong> text and this is an <em>emphasized</em> text.</p>
+    <h1>Subscript and Superscript</h1>
+    <p>This is an example of subscript H<sub>2</sub>O and superscript E=mc<sup>2</sup>.</p>
+    <h1>Time Element</h1>
+    <p>The event will take place on <time datetime="2023-10-01">October 1, 2023</time>.</p>
+    <h1>Address Element</h1>
+
+    <address>
+        <p>Contact us at:</p>
+        <p>123 Main St,<br />
+        Springfield, USA</p>
+        <p>Email: <a href="mailto:sample@gmail.com"></a></p>
+        <p>Phone: (123) 456-7890</p>
+    </address>
+
+    <h1>Figure and Figcaption</h1>
+    <figure>
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+        <figcaption>This is a caption for the image.</figcaption>
+    </figure>
+
+    <h1>Mark Element</h1>
+    <p>This is an example of a <mark>highlighted text</mark> using the mark element.</p>
+
+    <h1>Input Types</h1>
+    <form>
+        <label for="textInput">Text Input:</label>
+        <input type="text" id="textInput" name="textInput" placeholder="Enter text here" />
+        <br />
+        <label for="numberInput">Number Input:</label>
+        <input type="number" id="numberInput" name="numberInput" min="1" max="10" />
+        <br />
+        <label for="dateInput">Date Input:</label>
+        <input type="date" id="dateInput" name="dateInput" />
+        <br />
+        <label for="colorInput">Color Input:</label>
+        <input type="color" id="colorInput" name="colorInput" />
+        <br />
+        <input type="submit" value="Submit">
+    </form>
+
+    <h1>Input Range</h1>
+    <form>
+        <label for="rangeInput">Range Input:</label>
+        <input type="range" id="rangeInput" name="rangeInput" min="0" max="100" />
+        <br />
+        <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
